@@ -1,0 +1,436 @@
+9 18 21:27:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+9 18 21:27:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+9 18 21:27:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+9 18 21:27:40 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+9 18 21:27:40 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib/controller/default/templates/indexSuccess.php"
+9 18 21:27:40 symfony [info] {sfPHPView} Decorate content with "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 18 21:27:40 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 18 21:27:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+9 18 21:27:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:40 symfony [info] {sfWebDebugLogger} Configuration 457.14 ms (9)
+9 18 21:27:40 symfony [info] {sfWebDebugLogger} Factories 199.03 ms (1)
+9 18 21:27:40 symfony [info] {sfWebDebugLogger} Action "default/index" 0.11 ms (1)
+9 18 21:27:40 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 76.51 ms (1)
+9 18 21:27:40 symfony [info] {sfWebResponse} Send content (30940 o)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/css/screen.css with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'css' => 'screen.css',)
+9 18 21:27:41 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 18 21:27:41 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 18 21:27:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Configuration 37.78 ms (5)
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Factories 117.04 ms (1)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/log.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'log.png',)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/sf.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'sf.png',)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/icons/ok48.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'icons',  'ok48.png' => true,)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/sfTLogo.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'sfTLogo.png',)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/view.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'view.png',)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/config.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'config.png',)
+9 18 21:27:41 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:41 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Configuration 46.15 ms (5)
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Factories 162.69 ms (1)
+9 18 21:27:41 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:41 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Configuration 63.91 ms (5)
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Factories 262.06 ms (1)
+9 18 21:27:41 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 18 21:27:41 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/memory.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'memory.png',)
+9 18 21:27:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Configuration 55.77 ms (5)
+9 18 21:27:41 symfony [info] {sfWebDebugLogger} Factories 389.49 ms (1)
+9 18 21:27:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/time.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'time.png',)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 61.75 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 548.87 ms (1)
+9 18 21:27:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/close.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'close.png',)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 57.41 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 700.11 ms (1)
+9 18 21:27:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/toggle.gif with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'toggle.gif',)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 58.93 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 861.71 ms (1)
+9 18 21:27:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/info.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'info.png',)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 43.93 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 666.44 ms (1)
+9 18 21:27:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/warning.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'warning.png',)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 38.08 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 711.87 ms (1)
+9 18 21:27:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/error.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'error.png',)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 49.78 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 693.11 ms (1)
+9 18 21:27:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Configuration 38.65 ms (5)
+9 18 21:27:42 symfony [info] {sfWebDebugLogger} Factories 649.92 ms (1)
+9 18 21:27:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:43 symfony [info] {sfWebDebugLogger} Configuration 34.76 ms (5)
+9 18 21:27:43 symfony [info] {sfWebDebugLogger} Factories 619.62 ms (1)
+9 18 21:27:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:43 symfony [info] {sfWebDebugLogger} Configuration 35.35 ms (5)
+9 18 21:27:43 symfony [info] {sfWebDebugLogger} Factories 604.25 ms (1)
+9 18 21:27:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 18 21:27:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 18 21:27:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 18 21:27:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 18 21:27:43 symfony [info] {sfWebDebugLogger} Configuration 36.62 ms (5)
+9 18 21:27:43 symfony [info] {sfWebDebugLogger} Factories 582.65 ms (1)
+9 19 08:06:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+9 19 08:06:58 symfony [info] {myUser} Automatic user logout due to timeout
+9 19 08:06:58 symfony [info] {myUser} User is not authenticated
+9 19 08:06:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+9 19 08:06:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+9 19 08:06:58 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+9 19 08:06:59 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib/controller/default/templates/indexSuccess.php"
+9 19 08:06:59 symfony [info] {sfPHPView} Decorate content with "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 19 08:06:59 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 19 08:06:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+9 19 08:06:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:06:59 symfony [info] {sfWebDebugLogger} Configuration 79.67 ms (9)
+9 19 08:06:59 symfony [info] {sfWebDebugLogger} Factories 121.24 ms (1)
+9 19 08:06:59 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+9 19 08:06:59 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 92.25 ms (1)
+9 19 08:06:59 symfony [info] {sfWebResponse} Send content (31957 o)
+9 19 08:06:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/css/screen.css with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'css' => 'screen.css',)
+9 19 08:06:59 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:06:59 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:06:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:06:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:06:59 symfony [info] {sfWebDebugLogger} Configuration 44.85 ms (5)
+9 19 08:06:59 symfony [info] {sfWebDebugLogger} Factories 153.64 ms (1)
+9 19 08:06:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/config.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'config.png',)
+9 19 08:06:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/close.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'close.png',)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/warning.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'warning.png',)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/info.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'info.png',)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/toggle.gif with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'toggle.gif',)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/error.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'error.png',)
+9 19 08:07:00 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:00 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Configuration 62.02 ms (5)
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Factories 234.81 ms (1)
+9 19 08:07:00 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:00 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Configuration 58.20 ms (5)
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Factories 407.12 ms (1)
+9 19 08:07:00 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:00 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/sfTLogo.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'sfTLogo.png',)
+9 19 08:07:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Configuration 72.28 ms (5)
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Factories 509.93 ms (1)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/icons/ok48.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'icons',  'ok48.png' => true,)
+9 19 08:07:00 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:00 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Configuration 76.12 ms (5)
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Factories 681.04 ms (1)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/sf.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'sf.png',)
+9 19 08:07:00 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:00 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Configuration 71.97 ms (5)
+9 19 08:07:00 symfony [info] {sfWebDebugLogger} Factories 867.28 ms (1)
+9 19 08:07:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/view.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'view.png',)
+9 19 08:07:00 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:00 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Configuration 76.39 ms (5)
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Factories 1029.20 ms (1)
+9 19 08:07:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/log.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'log.png',)
+9 19 08:07:01 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:07:01 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Configuration 50.23 ms (5)
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Factories 792.40 ms (1)
+9 19 08:07:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/memory.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'memory.png',)
+9 19 08:07:01 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:07:01 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Configuration 44.83 ms (5)
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Factories 850.96 ms (1)
+9 19 08:07:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/time.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'time.png',)
+9 19 08:07:01 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:01 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Configuration 46.34 ms (5)
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Factories 838.37 ms (1)
+9 19 08:07:01 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:01 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Configuration 42.08 ms (5)
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Factories 800.34 ms (1)
+9 19 08:07:01 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:01 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Configuration 43.21 ms (5)
+9 19 08:07:01 symfony [info] {sfWebDebugLogger} Factories 774.92 ms (1)
+9 19 08:07:01 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:01 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:02 symfony [info] {sfWebDebugLogger} Configuration 43.25 ms (5)
+9 19 08:07:02 symfony [info] {sfWebDebugLogger} Factories 737.58 ms (1)
+9 19 08:07:02 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:07:02 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:07:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:07:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:07:02 symfony [info] {sfWebDebugLogger} Configuration 41.90 ms (5)
+9 19 08:07:02 symfony [info] {sfWebDebugLogger} Factories 692.78 ms (1)
+9 19 08:11:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+9 19 08:11:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+9 19 08:11:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+9 19 08:11:41 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+9 19 08:11:41 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib/controller/default/templates/indexSuccess.php"
+9 19 08:11:41 symfony [info] {sfPHPView} Decorate content with "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 19 08:11:41 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 19 08:11:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+9 19 08:11:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:41 symfony [info] {sfWebDebugLogger} Configuration 96.21 ms (9)
+9 19 08:11:41 symfony [info] {sfWebDebugLogger} Factories 172.82 ms (1)
+9 19 08:11:41 symfony [info] {sfWebDebugLogger} Action "default/index" 0.11 ms (1)
+9 19 08:11:41 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 84.92 ms (1)
+9 19 08:11:41 symfony [info] {sfWebResponse} Send content (31220 o)
+9 19 08:11:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/css/screen.css with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'css' => 'screen.css',)
+9 19 08:11:41 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:11:41 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:11:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:41 symfony [info] {sfWebDebugLogger} Configuration 47.11 ms (5)
+9 19 08:11:41 symfony [info] {sfWebDebugLogger} Factories 136.39 ms (1)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/sfTLogo.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'sfTLogo.png',)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/log.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'log.png',)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/sf.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'sf.png',)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/view.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'view.png',)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/icons/ok48.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'icons',  'ok48.png' => true,)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/config.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'config.png',)
+9 19 08:11:42 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:11:42 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:11:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:42 symfony [info] {sfWebDebugLogger} Configuration 76.01 ms (5)
+9 19 08:11:42 symfony [info] {sfWebDebugLogger} Factories 254.88 ms (1)
+9 19 08:11:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:42 symfony [info] {sfWebDebugLogger} Configuration 74.08 ms (5)
+9 19 08:11:42 symfony [info] {sfWebDebugLogger} Factories 405.85 ms (1)
+9 19 08:11:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/memory.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'memory.png',)
+9 19 08:11:42 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:42 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:42 symfony [info] {sfWebDebugLogger} Configuration 86.69 ms (5)
+9 19 08:11:42 symfony [info] {sfWebDebugLogger} Factories 514.57 ms (1)
+9 19 08:11:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/time.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'time.png',)
+9 19 08:11:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Configuration 102.48 ms (5)
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Factories 700.20 ms (1)
+9 19 08:11:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/close.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'close.png',)
+9 19 08:11:43 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:11:43 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:11:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Configuration 89.17 ms (5)
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Factories 877.23 ms (1)
+9 19 08:11:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/toggle.gif with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'toggle.gif',)
+9 19 08:11:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Configuration 106.86 ms (5)
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Factories 1075.31 ms (1)
+9 19 08:11:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/info.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'info.png',)
+9 19 08:11:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Configuration 58.33 ms (5)
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Factories 861.99 ms (1)
+9 19 08:11:43 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:43 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Configuration 42.66 ms (5)
+9 19 08:11:43 symfony [info] {sfWebDebugLogger} Factories 890.13 ms (1)
+9 19 08:11:44 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:44 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:44 symfony [info] {sfWebDebugLogger} Configuration 38.70 ms (5)
+9 19 08:11:44 symfony [info] {sfWebDebugLogger} Factories 870.20 ms (1)
+9 19 08:11:44 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:44 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:44 symfony [info] {sfWebDebugLogger} Configuration 40.43 ms (5)
+9 19 08:11:44 symfony [info] {sfWebDebugLogger} Factories 823.92 ms (1)
+9 19 08:11:44 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:44 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:44 symfony [info] {sfWebDebugLogger} Configuration 37.20 ms (5)
+9 19 08:11:44 symfony [info] {sfWebDebugLogger} Factories 791.41 ms (1)
+9 19 08:11:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+9 19 08:11:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+9 19 08:11:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+9 19 08:11:48 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+9 19 08:11:48 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib/controller/default/templates/indexSuccess.php"
+9 19 08:11:49 symfony [info] {sfPHPView} Decorate content with "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 19 08:11:49 symfony [info] {sfPHPView} Render "C:\xampp_php53\htdocs\symfony1\lib\controller\default\templates/defaultLayout.php"
+9 19 08:11:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+9 19 08:11:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:49 symfony [info] {sfWebDebugLogger} Configuration 87.71 ms (9)
+9 19 08:11:49 symfony [info] {sfWebDebugLogger} Factories 154.70 ms (1)
+9 19 08:11:49 symfony [info] {sfWebDebugLogger} Action "default/index" 0.10 ms (1)
+9 19 08:11:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 103.22 ms (1)
+9 19 08:11:49 symfony [info] {sfWebResponse} Send content (31221 o)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/css/screen.css with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'css' => 'screen.css',)
+9 19 08:11:49 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:11:49 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:11:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:49 symfony [info] {sfWebDebugLogger} Configuration 43.57 ms (5)
+9 19 08:11:49 symfony [info] {sfWebDebugLogger} Factories 139.23 ms (1)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/sfTLogo.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'sfTLogo.png',)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/sf.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'sf.png',)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/view.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'view.png',)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_default/images/icons/ok48.png with parameters array (  'module' => 'sf',  'action' => 'sf_default',  'images' => 'icons',  'ok48.png' => true,)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/log.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'log.png',)
+9 19 08:11:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/config.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'config.png',)
+9 19 08:11:50 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:11:50 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:11:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Configuration 60.31 ms (5)
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Factories 199.51 ms (1)
+9 19 08:11:50 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:50 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Configuration 63.83 ms (5)
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Factories 393.02 ms (1)
+9 19 08:11:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/memory.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'memory.png',)
+9 19 08:11:50 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:50 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Configuration 59.43 ms (5)
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Factories 655.61 ms (1)
+9 19 08:11:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/time.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'time.png',)
+9 19 08:11:50 symfony [info] {sfFrontWebController} Action "sf/sf_default" does not exist
+9 19 08:11:50 symfony [err] {sfError404Exception} Action "sf/sf_default" does not exist.
+9 19 08:11:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Configuration 58.94 ms (5)
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Factories 858.96 ms (1)
+9 19 08:11:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/close.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'close.png',)
+9 19 08:11:50 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:50 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Configuration 59.45 ms (5)
+9 19 08:11:50 symfony [info] {sfWebDebugLogger} Factories 1055.64 ms (1)
+9 19 08:11:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/toggle.gif with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'toggle.gif',)
+9 19 08:11:51 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:51 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Configuration 60.14 ms (5)
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Factories 1258.86 ms (1)
+9 19 08:11:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/info.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'info.png',)
+9 19 08:11:51 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:51 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Configuration 54.85 ms (5)
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Factories 1013.75 ms (1)
+9 19 08:11:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/warning.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'warning.png',)
+9 19 08:11:51 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:51 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Configuration 46.93 ms (5)
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Factories 994.25 ms (1)
+9 19 08:11:51 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /sf/sf_web_debug/images/error.png with parameters array (  'module' => 'sf',  'action' => 'sf_web_debug',  'images' => 'error.png',)
+9 19 08:11:51 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:51 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Configuration 42.71 ms (5)
+9 19 08:11:51 symfony [info] {sfWebDebugLogger} Factories 1013.40 ms (1)
+9 19 08:11:51 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:51 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Configuration 43.06 ms (5)
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Factories 998.60 ms (1)
+9 19 08:11:52 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:52 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Configuration 47.61 ms (5)
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Factories 960.19 ms (1)
+9 19 08:11:52 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:52 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Configuration 50.54 ms (5)
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Factories 941.85 ms (1)
+9 19 08:11:52 symfony [info] {sfFrontWebController} Action "sf/sf_web_debug" does not exist
+9 19 08:11:52 symfony [err] {sfError404Exception} Action "sf/sf_web_debug" does not exist.
+9 19 08:11:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+9 19 08:11:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Configuration 43.29 ms (5)
+9 19 08:11:52 symfony [info] {sfWebDebugLogger} Factories 890.96 ms (1)
