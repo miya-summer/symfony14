@@ -17,6 +17,8 @@ class pageActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->forward('default', 'module');
+      // 何もしなければ templates/indexSuccess.php が自動で呼ばれる
+      // 必要なら変数をテンプレートに渡せます
+      $this->message = "Hello Page!";
   }
 }
