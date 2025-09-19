@@ -1,11 +1,11 @@
 <?php
 
-// ƒvƒƒWƒFƒNƒg‚ÌÝ’èƒtƒ@ƒCƒ‹‚ð“Ç‚Ýž‚Þ
+// ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã®è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚€
 require_once __DIR__.'/../config/ProjectConfiguration.class.php';
 
-// ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ÌÝ’è‚ðŽæ“¾
+// ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®è¨­å®šã‚’å–å¾—
 $configuration = ProjectConfiguration::getApplicationConfiguration('frontend', 'dev', true);
 
-// ƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚Ìƒtƒƒ“ƒgƒRƒ“ƒgƒ[ƒ‰‚ð‹N“®
+// ã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã®ãƒ•ãƒ­ãƒ³ãƒˆã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã‚’èµ·å‹•
 sfContext::createInstance($configuration)->dispatch();
 
