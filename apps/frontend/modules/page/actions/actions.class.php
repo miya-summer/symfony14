@@ -21,4 +21,14 @@ class pageActions extends sfActions
       // 必要なら変数をテンプレートに渡せます
       $this->message = "Hello Page!";
   }
+
+    public function executeAbout(sfWebRequest $request)
+    {
+        $this->info = "This is the About page.";
+    }
+
+    public function executeContact(sfWebRequest $request)
+    {
+        $this->contact_email = "info@example.com";
+    }
 }

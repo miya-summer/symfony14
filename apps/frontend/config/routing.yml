@@ -14,3 +14,11 @@ default_index:
 
 default:
   url:   /:module/:action/*
+
+about_page:
+  url: /about
+  param: { module: page, action: about }
+
+contact_page:
+  url: /contact
+  param: { module: page, action: contact }
