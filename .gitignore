@@ -1,0 +1,22 @@
+# symfony が生成するキャッシュ/ログ
+/cache/*
+/log/*
+/web/uploads/*
+
+# IDE/Editor 関連
+.idea/
+.vscode/
+nbproject/
+*.sublime-workspace
+*.sublime-project
+
+# OS ゴミファイル
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# バックアップファイル
+*~
+*.bak
+*.swp
