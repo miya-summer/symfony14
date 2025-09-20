@@ -5,6 +5,6 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=myproject
+      dsn:      mysql:host=127.0.0.1;port=3307;dbname=myproject_db
       username: root
       password: 
