@@ -1,0 +1,19 @@
+.form-group {
+    margin-bottom: 1em;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 0.2em;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 300px;
+    padding: 0.3em;
+    font-size: 1em;
+}
+.required {
+    color: red;
+}
+.form-actions {
+    margin-top: 1em;
+}
