@@ -10,6 +10,18 @@ hello_user:
   url: /hello/:name
   param: { module: hello, action: index }
 
+user_new:
+  url: /user/new
+  param: { module: user, action: new }
+
+user_create:
+  url: /user/create
+  param: { module: user, action: create }
+
+user_show:
+  url: /user/:id
+  param: { module: user, action: show }
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:
