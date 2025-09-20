@@ -1,0 +1,15 @@
+User:
+  tableName: user
+  columns:
+    name:
+      type: string(255)
+      notnull: true
+    email:
+      type: string(255)
+      notnull: true
+    created_at:
+      type: timestamp
+      notnull: true
+    updated_at:
+      type: timestamp
+      notnull: true
